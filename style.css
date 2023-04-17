@@ -1,0 +1,204 @@
+body{
+    background: radial-gradient(circle, rgb(170, 156, 83) 0%, rgb(235, 208, 145) 100%);
+    width:100%;
+    margin:0px;
+}
+h1{
+    padding: 2px 30px;
+    text-align: center;
+    font-size:55px;
+    font-family: 'Lobster', cursive;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    cursor:pointer;
+}
+h1:hover{
+    background-color: rgb(44, 42, 30);
+    color:aliceblue;
+    transition: 2s ease-in;
+}
+.quote{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+nav ul{
+    margin:0px;
+}
+nav{
+    background-color: rgb(155, 159, 49);
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+nav li{
+    list-style: none;
+    display:inline-block;
+    padding:5px 90px;
+    margin:0px 90px;
+}
+nav li a{
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight:bolder;
+}
+nav li:hover{
+    background-color:rgb(248, 244, 210);
+    transform : scale(1.05);
+    transition : 0.8s linear;
+}
+#intro{
+    display:flex;
+    width:100%;
+    height:450px;
+}
+#left{
+    height:400px;
+    width:40%;
+    padding: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+#left h2{
+    font-family: 'Lilita One', cursive;
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#left div{
+    font-family: 'Alkatra', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+#left p{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+#right img{
+    height: 450px;
+    width: 520px;
+    border-radius: 100px;
+}
+img:hover{
+    filter: brightness(1);
+    cursor: grab;
+    box-shadow: 0 0 15px 1px #525252;
+}
+#middle-1 , #middle-2 , #middle-3 , #middle-4{
+    margin-top: 40px;
+    display:flex;
+    width:100%;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+}
+#middle-2{
+    margin-top: 30px;
+}
+#middle-3 , #middle-4{
+    height:400px;
+}
+#middle-4{
+    margin-top: 0px;
+}
+#middle-left1 , #middle-right2 , #middle-left3 , #middle-right4{
+    width:25%;
+    padding-left: 20px;
+}
+#middle-left1 img , #middle-right2 img , #middle-left3 img , #middle-right4 img{
+    width:80%;
+    border-radius: 10px;
+}
+#middle-right1 , #middle-left2 , #middle-right3 , #middle-left4{
+    width:70%;
+    padding-top: 0px;
+}
+#middle-right1 h2 , #middle-left2 h2 , #middle-right3 h2 , #middle-left4 h2{
+    font-family: 'Alkatra', cursive;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#middle-right1 p , #middle-left2 p , #middle-right3 p , #middle-left4 p{
+    margin-top: 3px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: italic;
+}
+#awards{
+    width:100%;
+    height:500px;
+}
+#awards h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#tab{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:400px;
+}
+#tab div{
+    width:20%;
+    height:300px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+#tab div img{
+    width:260px;
+    height:350px;
+    border-radius: 20px;
+}
+#tab table{
+    font-size: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: italic;
+}
+#tab table tr th{
+    font-size: 20px;
+}
+#tab table tr th , #tab table tr td{
+    padding:2px 10px;
+}
+#tab table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#tab table tr:hover{
+    background-color: #ddd;
+}
+footer{
+    background-color: #ebf2d9;
+    width:100%;
+    height:170px;
+    padding-top: 8px;
+}
+#insta{
+    width:60px;
+    height:40px;
+}
+#twitter , #fb , #wiki{
+    width:45px;
+    height:40px;
+}
+footer div a{
+    padding:5px 90px;
+}
+footer h2{
+    font-family: 'Alkatra', cursive;
+    margin-bottom: 10px;
+    padding-left:10px;
+}
+#cr{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding-top: 20px;
+}
